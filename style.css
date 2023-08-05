@@ -1,12 +1,42 @@
-html,body{
-    width: 70%;
+body{
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .container{
-    width: 460px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.to-do div{
+    height: auto;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    padding: 3px 6px;
+}
+
+.to-do div button{
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.Box{
+    background-color: grey;
+    padding: 20px 40px;
+}
+
+.to-do{
+    padding: 10px;
+    background-color: black;
 }
 
 #inputfield{
@@ -24,7 +54,7 @@ html,body{
     border: 1px solid black;
     vertical-align: middle;
     font-size: 30px;
-    background-color: blue;
+    background-color: greenyellow;
     cursor: pointer;
     
 
